@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "SenderEmail": "YOUR_SENDER_EMAIL",
+    "SendGridApiKey": "YOUR_API_KEY_FROM_https://sendgrid.com/"
+  }
+}

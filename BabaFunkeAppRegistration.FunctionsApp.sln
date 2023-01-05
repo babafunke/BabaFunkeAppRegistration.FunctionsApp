@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6DD7AEC-EC7C-4BE4-AB35-7FBB2825484D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5132AC21-EBB3-433F-B6AC-6D7F2F9BA843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabaFunkeAppRegistration", "src\BabaFunkeAppRegistration\BabaFunkeAppRegistration.csproj", "{B67304B1-C5DE-4021-8ECC-7799F87536E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabaFunkeEmailConfirmation", "src\BabaFunkeEmailConfirmation\BabaFunkeEmailConfirmation.csproj", "{B0B6B87A-2E8C-4703-9870-996CBD49F47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{FB3748C8-6872-438A-8DA5-CA239E6202C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabaFunkeAppRegistration.Tests", "tests\BabaFunkeAppRegistration.Tests\BabaFunkeAppRegistration.Tests.csproj", "{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B67304B1-C5DE-4021-8ECC-7799F87536E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67304B1-C5DE-4021-8ECC-7799F87536E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67304B1-C5DE-4021-8ECC-7799F87536E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67304B1-C5DE-4021-8ECC-7799F87536E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B6B87A-2E8C-4703-9870-996CBD49F47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B6B87A-2E8C-4703-9870-996CBD49F47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B6B87A-2E8C-4703-9870-996CBD49F47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B6B87A-2E8C-4703-9870-996CBD49F47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3748C8-6872-438A-8DA5-CA239E6202C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3748C8-6872-438A-8DA5-CA239E6202C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3748C8-6872-438A-8DA5-CA239E6202C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3748C8-6872-438A-8DA5-CA239E6202C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B67304B1-C5DE-4021-8ECC-7799F87536E9} = {B6DD7AEC-EC7C-4BE4-AB35-7FBB2825484D}
+		{B0B6B87A-2E8C-4703-9870-996CBD49F47C} = {B6DD7AEC-EC7C-4BE4-AB35-7FBB2825484D}
+		{FB3748C8-6872-438A-8DA5-CA239E6202C3} = {B6DD7AEC-EC7C-4BE4-AB35-7FBB2825484D}
+		{4722AE3D-FB0E-47BE-9D9E-0CEAF3365372} = {5132AC21-EBB3-433F-B6AC-6D7F2F9BA843}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5484E498-615D-4454-A7BE-41FC326C0806}
+	EndGlobalSection
+EndGlobal

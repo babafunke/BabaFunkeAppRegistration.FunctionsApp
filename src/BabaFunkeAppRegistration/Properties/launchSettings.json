@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BabaFunkeAppRegistration": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7046",
+      "launchBrowser": false
+    }
+  }
+}
