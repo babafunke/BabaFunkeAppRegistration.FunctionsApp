@@ -13,7 +13,7 @@ There is a single solution file which contains the projects below
 * BabaFunkeAppRegistration.Tests - an Xunit test project for the Functions App projects
 
 # Build and Test
-Clone this git repo and open the solution in Visual Studio. Update the local.settings.json files with your details where applicable. This includes SendGrid API keys, email addresses etc. 
+Clone this git repo and open the solution in Visual Studio. Update the local.settings.json files with your details where applicable. This includes the SendGrid API keys, and sender email addresses. Also, make sure you change the value for the property **FunctionAppEmailHost** in the local.settings.json file of the BabaFunkeAppRegistration project to correspond to the local URL of the BabaFunkeEmailConfirmation project. 
 
 
 # Background
