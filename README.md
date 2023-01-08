@@ -3,7 +3,7 @@ A Registration backend using Azure Durable Functions
 
 [![Blog Inspiration (BabaFunkeAppRegistration.FunctionsApp)](https://img.shields.io/badge/Blog-Inspiration-yellowgreen.svg?style=flat-square)](https://daddycreates.com/a4k-app-creating-a-registration-backend-using-azure-durable-functions/)
 # Introduction 
-BabaFunkeAppRegistration.FunctionsApp is a Regsitration backend for an App. It uses the combination of Azure Functions and Table Storage to register users via an App. Specifically, it uses Durable Functions to manage the registration workflow ensuring state managment across the validation, persistence and email confirmation steps. The solution includes 4 projects - a shared class library, 2 Functions App projects and 1 Test project. It was inspired by the need to create a scalable yet secure cost-effective Registration backend for an App that I'm currently working on for my daughter.
+BabaFunkeAppRegistration.FunctionsApp is a Registration backend for an App. It uses the combination of Azure Functions and Table Storage to register users via an App. Specifically, it uses Durable Functions to manage the registration workflow ensuring state management across the validation, persistence and email confirmation steps. The solution includes 4 projects - a shared class library, 2 Functions App projects and 1 Test project. It was inspired by the need to create a scalable yet secure cost-effective Registration backend for an App that I'm currently working on for my daughter.
 
 # Solution
 There is a single solution file which contains the projects below
