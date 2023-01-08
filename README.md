@@ -18,4 +18,4 @@ Clone this git repo and open the solution in Visual Studio. Update the local.set
 
 # Background
 For more on the project's background and walkthrough, read here
-* [A4K App: creating a Registration Backend using Azure Durable Functions](https://daddycreates.com/a4k-app-creating-a-registration-backend-using-azure-durable-functions/)
+* [A4K App: creating a Registration Backend using Durable Functions](https://daddycreates.com/a4k-app-creating-a-registration-backend-using-azure-durable-functions/)
