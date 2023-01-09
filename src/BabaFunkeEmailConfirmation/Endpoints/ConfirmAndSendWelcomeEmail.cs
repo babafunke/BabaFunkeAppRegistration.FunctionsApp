@@ -16,7 +16,7 @@ namespace BabaFunkeEmailConfirmation.Endpoints
     {
         [FunctionName(nameof(ConfirmAndSendWelcomeEmail))]
         public async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "confirmandwelcomeemail/{code}/{email}")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "confirmandwelcomeemail/{code}/{email}")] HttpRequest req,
             [SendGrid(ApiKey = "SendGridApiKey", From = "%SenderEmail%")] IAsyncCollector<SendGridMessage> messageCollector,
             [Table("BabaFunkeAppUsers", "AzureWebJobsStorage")] TableClient tableClient,
             string code,
